@@ -1,0 +1,27 @@
+venv/
+*.wav
+__pycache__/
+*.log
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore sound files (unless you want to track alert.wav)
+*.wav
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore dataset folders if not needed
+raw_dataset/
+dataset/
+
+# Ignore model checkpoints if retrainable
+*.h5
+# Ignore all wav files except alert.wav
+*.wav
+!assets/alert.wav
